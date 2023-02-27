@@ -1,8 +1,8 @@
 pandas
 matplotlib
 numpy
-holoviews
 bokeh
+holoviews
 scikit-learn
 scipy
 streamlit
