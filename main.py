@@ -1,4 +1,3 @@
-import streamlit as st
 import pandas as pd
 import numpy as np
 import holoviews as hv
@@ -6,6 +5,7 @@ from holoviews import opts
 hv.extension('bokeh')
 from bokeh.models import HoverTool
 from sklearn.ensemble import IsolationForest
+import streamlit as st
 
 file = st.sidebar.file_uploader('Select a csv file', type={"csv", "txt"})
 
